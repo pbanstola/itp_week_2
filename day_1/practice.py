@@ -9,9 +9,18 @@ person_1 = {
     }
 
 # verify the type of person_1 to be a dictionary by using type
-
+print(type(person_1))
 # add a key value pair to person_1 with the last_name of Doo
-
+person_1['last_name'] = 'Doo'
 # update person_1 favorite_snack to "Scooby Snacks"
 
+    # person_1.update({'favorite_snack':"Scooby Snacks" })
+    # print(person_1)
+person_1["favorite_snack"] = "Scooby Snacks"
+print(person_1)
 # Remove the "wears_glasses" key:value from person_1
+    # del person_1["wears_glasses"]
+person_1.pop("wears_glasses")
+
+
+print(person_1)

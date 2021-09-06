@@ -20,7 +20,7 @@ def pickToon(toons):
         else:
             print("Wrong character")
 
-#pickToon(myToons)
+pickToon(myToons)
 
 #In Python, Pass, Continue and break are used to loops. Though continue and break are similar to that of other traditional programming languages, pass is a unique feature available in python. break - Terminates the loop, after its invocation. continue - Skips the current loop, and continues perform the next consecutive loops. pass - Does nothing
 
